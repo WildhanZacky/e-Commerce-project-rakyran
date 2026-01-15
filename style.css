@@ -4,6 +4,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 .nav-background{
     display: flex;
     justify-content: space-between;
@@ -98,10 +102,89 @@
     align-items: center;
 }
 
+.img-category img{
+    border-radius: 15px;
+}
+
 .img-category p{
     margin-top: 15px;
     font-weight: 600;
     font-size: 18px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+
+.products h2{
+    margin: 4% 0;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 0 5%;
+    align-items: center;
+}
+
+.products-list-type {
+    background-color:#F4F5F7;
+    position: relative;
+}
+
+.discount-badge {
+    background-color: #E97171;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 5% 0;
+    width: 15%;
+    top: 5%;
+    right: 5%;
+    text-align: center;
+}
+
+.new-badge {
+    background-color: #2EC1AC;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 5% 0;
+    width: 15%;
+    top: 5%;
+    right: 5%;
+    text-align: center;
+}
+
+.products-name {
+    font-weight: bold;
+    margin: 5%;
+}
+
+.products-blur-name {
+    color: #898989;
+    margin: 5%;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.discount-price {
+    font-size: large;
+    font-weight: bold;
+}
+
+.normal-price {
+    text-decoration: line-through;
+    color: #898989;
+    font-size: small;
 }
 
 #browse-head {
