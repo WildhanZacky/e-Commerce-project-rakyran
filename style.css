@@ -88,6 +88,16 @@ img{
     align-items: center;
 }
 
+#browse-head {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#desc-lorem{
+    margin: 5% 0 15% 0;
+}
+
 .browse-category{
     display: flex;
     justify-content: space-around; 
@@ -116,7 +126,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0%;
+    margin: 4%;
 }
 
 .products h2{
@@ -185,14 +195,18 @@ img{
     font-size: small;
 }
 
-#browse-head {
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 10px;
+#btn-showmore {
+    text-decoration: none;
+    width: 20%;
+    padding: 2%;
 }
 
-#desc-lorem{
-    margin: 5% 0 15% 0;
+.btn-showmore {
+    border: solid 1px #B88E2F;
+    color: #B88E2F;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 0;
 }
 
 #color-B88E2F{
