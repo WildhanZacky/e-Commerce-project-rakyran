@@ -148,7 +148,7 @@ img{
     color: white;
     border-radius: 50%;
     position: absolute;
-    padding: 5% 0;
+    padding: 5% 1%;
     width: 15%;
     top: 5%;
     right: 5%;
@@ -160,7 +160,7 @@ img{
     color: white;
     border-radius: 50%;
     position: absolute;
-    padding: 5% 0;
+    padding: 5% 1%;
     width: 15%;
     top: 5%;
     right: 5%;
@@ -207,6 +207,79 @@ img{
     font-weight: bold;
     text-align: center;
     padding: 5% 0;
+}
+
+.room-inspiration{
+    background-color: #FFF3E3;
+    width: 100%;
+    display: flex;
+    padding: 5% 0;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.room-inspiraiton-details{
+    width: 30%;
+}
+
+#inspiration-text{
+    font-weight: bold;
+}
+
+#inspiration-desc{
+    color: #898989;
+}
+
+.btn-explore{
+    color: white;
+    text-decoration: none;
+}
+
+#explore-style{
+    background-color: #B88E2F;
+    width: 10%;
+    text-align: center;
+}
+
+.inspiration-room-card{
+    position: relative;
+    width: 25%;
+    display: flex;
+}
+
+.room-name{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    background-color:#FFFFFFB8;
+    padding: 7%;
+}
+
+#name-room{
+    color: #898989;
+    margin: 0;
+}
+
+#inner-peace{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0;
+}
+
+.labeling{
+    display: flex;
+}
+
+.room-arrow{
+    position: absolute;
+    top: 88.5%;
+    right: 30%;
+    background-color: #B88E2F;
+}
+
+.inspiration-img{
+    display: flex;
 }
 
 #color-B88E2F{
