@@ -215,8 +215,7 @@ img{
     display: flex;
     padding: 3% 0;
     align-items: center;
-    justify-content: center;
-    gap: 5%;
+    justify-content: space-evenly;
 }
 
 .room-inspiraiton-details{
@@ -248,17 +247,14 @@ img{
 
 .inspiration-room-card{
     position: relative;
-    left: 5%;
-    width: 25%;
-    display: flex;
 }
 
 .room-name{
-    position: absolute;
     top: 75%;
     left: 10%;
     background-color:#FFFFFFB8;
-    padding: 7%;
+    padding: 1rem;
+    width: 10rem;
 }
 
 #name-room{
@@ -273,26 +269,24 @@ img{
 }
 
 .labeling{
+    position: absolute;
     display: flex;
+    width: max-content;
+    align-items: end;
+    bottom: 1.5rem;
+    left: 1rem;
 }
 
 .room-arrow{
-    position: absolute;
     top: 88.5%;
     right: 30%;
+    display: flex;
     background-color: #B88E2F;
 }
 
 .inspiration-img{
     position: relative;
     display: flex;
-    padding: 0 0 4% 0;
-    left: 2%;
-}
-
-#inspiration-img{
-    position: relative;
-    left: 5%;
 }
 
 .footer{
