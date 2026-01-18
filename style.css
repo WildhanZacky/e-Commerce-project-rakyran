@@ -289,6 +289,34 @@ img{
     display: flex;
 }
 
+.slide-container{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.slide-circle{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #898989;
+    border-radius: 100%;
+}
+
+.slide-active{
+    width: 1rem;
+    height: 1rem;
+    border: solid 2px #B88E2F;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-active div{
+    background-color: #B88E2F;
+}
+
 .footer{
     padding: 6% 7% 1% 7%;
 }
