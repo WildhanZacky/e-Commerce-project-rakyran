@@ -333,7 +333,6 @@ img{
 .slide-show a{
     text-decoration: none;
     color: #B88E2F;
-    font-weight: bold;
     font-size: large;
 }
 
@@ -401,4 +400,75 @@ img{
 
 #color-898989{
     color: #898989;
+}
+
+
+
+
+
+
+
+
+
+.shop-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-img img{
+    height: 20rem;
+    object-fit: cover;
+    opacity: 60%;
+    filter: blur(2px);
+}
+
+.shop-label{
+    position: absolute;
+    justify-items: center;
+}
+
+.nav-filter{
+    background-color: #FFF3E3;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.nav-filter div{
+    margin: 0 1rem;
+}
+
+.filter-left{
+    display: flex;
+}
+
+.filter-icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.result-right{
+    display: flex;
+}
+
+.result{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#result-box{
+    background-color: white;
+    color: #898989;
+    padding: 1rem;
+}
+
+#result-box-2{
+    background-color: white;
+    color: #898989;
+    padding: 1rem 4rem 1rem 1rem;
 }
