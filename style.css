@@ -317,6 +317,26 @@ img{
     background-color: #B88E2F;
 }
 
+.slide-show{
+    position: absolute;
+    right: 5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.356) 2px 2px 2px;
+}
+
+.slide-show a{
+    text-decoration: none;
+    color: #B88E2F;
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer{
     padding: 6% 7% 1% 7%;
 }
