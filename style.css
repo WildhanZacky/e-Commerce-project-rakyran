@@ -729,7 +729,7 @@ img{
 }
 
 .product-desc{
-    width: 80%;
+    width: 90%;
 }
 .product-desc p{
     padding: 0.5rem 0;
@@ -803,4 +803,49 @@ img{
     display: flex;
     gap: 2rem;
     align-items: center;
+}
+
+.product-addition-subtraction{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border: solid 1px #898989;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+}
+
+.product-to-cart{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border: solid 1px black;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+}
+
+.product-compare{
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+}
+
+.product-detail2{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    color: #898989;
+}
+
+.share-icon{
+    display: flex;
+}
+
+.share-icon img{
+    width: 1.5rem;
+    height: 1.5rem;
 }
